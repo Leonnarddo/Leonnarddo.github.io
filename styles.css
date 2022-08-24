@@ -1,0 +1,44 @@
+body {
+    background-image: url(img/lake.png);    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;    
+  }
+
+  .caja1 {
+    position: relative;
+    background-color: rgba(240,240,240,0.9);
+    margin: 30px auto;
+    padding: 30px;
+    max-width: 650px;
+    border-radius: 25px;
+    border: 5px solid black;
+    box-shadow: 15px 15px 20px -5px rgba(0,0,0,0.5);
+  }
+
+  h1 {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+
+  }
+
+  .perro {
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    filter: drop-shadow(0 4mm 4mm rgb(160, 160, 160));
+    border-style: solid;
+  }
+
+  .interes{
+    size-adjust: unset;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    min-width: 40px;
+  }
